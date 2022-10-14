@@ -6,7 +6,7 @@
 
     Private Sub btnLogIn_Click(sender As Object, e As EventArgs) Handles btnLogIn.Click
         Dim username As String = txtUserName.Text
-        Dim password As Integer = txtPassword.Text
+        Dim password As String = txtPassword.Text
 
         If (username <> "Harish Ramachandra" Or password <> 206007) Then
             MessageBox.Show("Wrong username or password, try again")
