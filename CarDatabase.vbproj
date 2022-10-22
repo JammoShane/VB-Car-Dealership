@@ -84,6 +84,12 @@
     <Compile Include="Car_Database_Menu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DeleteCars.designer.vb">
+      <DependentUpon>DeleteCars.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteCars.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DisplayCars.Designer.vb">
       <DependentUpon>DisplayCars.vb</DependentUpon>
     </Compile>
@@ -95,6 +101,12 @@
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertCars.Designer.vb">
+      <DependentUpon>InsertCars.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InsertCars.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -117,11 +129,17 @@
     <EmbeddedResource Include="Car_Database_Menu.resx">
       <DependentUpon>Car_Database_Menu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DeleteCars.resx">
+      <DependentUpon>DeleteCars.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DisplayCars.resx">
       <DependentUpon>DisplayCars.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertCars.resx">
+      <DependentUpon>InsertCars.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -191,6 +209,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot 2022-10-21 135108.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\vb_bg_transformed.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
