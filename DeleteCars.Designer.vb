@@ -22,6 +22,7 @@ Partial Class DeleteCars
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DeleteCars))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtDeleteData = New System.Windows.Forms.TextBox()
         Me.txtDelete = New System.Windows.Forms.Button()
@@ -34,7 +35,7 @@ Partial Class DeleteCars
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(99, 59)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(120, 25)
+        Me.Label1.Size = New System.Drawing.Size(153, 29)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Enter car ID:"
         '
@@ -62,7 +63,7 @@ Partial Class DeleteCars
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.BackgroundImage = Global.CarDatabase.My.Resources.Resources.vb_bg_transformed
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.txtDelete)

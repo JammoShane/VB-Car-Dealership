@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCarImage.Designer.vb">
+      <DependentUpon>AddCarImage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddCarImage.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CarInformationDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -88,6 +94,12 @@
       <DependentUpon>DeleteCars.vb</DependentUpon>
     </Compile>
     <Compile Include="DeleteCars.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayCar.Designer.vb">
+      <DependentUpon>DisplayCar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayCar.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DisplayCars.Designer.vb">
@@ -126,11 +138,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AddCarImage.resx">
+      <DependentUpon>AddCarImage.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Car_Database_Menu.resx">
       <DependentUpon>Car_Database_Menu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DeleteCars.resx">
       <DependentUpon>DeleteCars.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayCar.resx">
+      <DependentUpon>DisplayCar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DisplayCars.resx">
       <DependentUpon>DisplayCars.vb</DependentUpon>
@@ -211,6 +229,8 @@
     <None Include="Resources\Screenshot 2022-10-21 135108.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\mustang_gt.png" />
+    <None Include="Resources\vb_bg-transformed.jpeg" />
     <Content Include="Resources\vb_bg_transformed.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

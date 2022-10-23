@@ -93,6 +93,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property mustang_gt() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("mustang_gt", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Screenshot_2022_10_14_122540() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Screenshot 2022-10-14 122540", resourceCulture)
@@ -186,6 +196,16 @@ Namespace My.Resources
         Friend ReadOnly Property Screenshot_2022_10_21_135108() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Screenshot 2022-10-21 135108", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property vb_bg_transformed() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("vb_bg-transformed", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
