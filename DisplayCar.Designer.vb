@@ -172,7 +172,7 @@ Partial Class DisplayCar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(987, 505)
+        Me.ClientSize = New System.Drawing.Size(1041, 505)
         Me.Controls.Add(Me.lblHp)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)

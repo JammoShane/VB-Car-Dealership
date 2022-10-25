@@ -78,6 +78,5 @@ C:\Users\Tirathjit Singh\Downloads\VB Car Dealership\VB-Car-Dealership-main\obj\
 C:\Users\Tirathjit Singh\Downloads\VB Car Dealership\VB-Car-Dealership-main\obj\Debug\CarDatabase.exe
 C:\Users\Tirathjit Singh\Downloads\VB Car Dealership\VB-Car-Dealership-main\obj\Debug\CarDatabase.xml
 C:\Users\Tirathjit Singh\Downloads\VB Car Dealership\VB-Car-Dealership-main\obj\Debug\CarDatabase.pdb
-C:\Users\Tirathjit Singh\Downloads\VB Car Dealership\VB-Car-Dealership-main\obj\Debug\CarDatabase.SearchCar.resources
 C:\Users\Tirathjit Singh\Downloads\VB Car Dealership\VB-Car-Dealership-main\obj\Debug\CarDatabase.AddCarImage.resources
 C:\Users\Tirathjit Singh\Downloads\VB Car Dealership\VB-Car-Dealership-main\obj\Debug\CarDatabase.DisplayCar.resources

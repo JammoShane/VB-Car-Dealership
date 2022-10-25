@@ -33,7 +33,7 @@ Public Class DisplayCar
 
         If table.Rows.Count() <= 0 Then
 
-            MessageBox.Show("No Image For This Id")
+            MessageBox.Show("Car ID does not exist in database. Please enter a valid car ID")
         Else
 
             Dim img() As Byte

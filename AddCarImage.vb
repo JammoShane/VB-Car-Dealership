@@ -68,6 +68,9 @@ Public Class AddCarImage
         command1.ExecuteNonQuery()
 
         MessageBox.Show("Image Inserted Successfully")
+        TextBox2.Text = ""
+        PictureBox2.Image = Nothing
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

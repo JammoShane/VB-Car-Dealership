@@ -27,6 +27,10 @@ Public Class InsertCars
 
         MessageBox.Show("Car Inserted")
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Me.Close()
+    End Sub
 End Class
 
 'carID, carModelName, carBrandName, carAge, carEngineSize, carHorsepower
