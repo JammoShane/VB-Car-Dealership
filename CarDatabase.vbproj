@@ -231,6 +231,9 @@
   <ItemGroup>
     <None Include="Resources\mustang_gt.png" />
     <None Include="Resources\vb_bg-transformed.jpeg" />
+    <None Include="Resources\Screenshot 2022-10-25 2032221.png" />
+    <None Include="Resources\Screenshot 2022-10-25 2039531.png" />
+    <None Include="Resources\Screenshot 2022-10-25 2036581.png" />
     <Content Include="Resources\vb_bg_transformed.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
