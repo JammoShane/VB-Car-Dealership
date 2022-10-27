@@ -37,6 +37,8 @@ Partial Class InsertCars
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.txtCarPrice = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -122,7 +124,7 @@ Partial Class InsertCars
         '
         Me.Button1.BackColor = System.Drawing.Color.Transparent
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(30, 370)
+        Me.Button1.Location = New System.Drawing.Point(30, 413)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(208, 71)
         Me.Button1.TabIndex = 10
@@ -132,7 +134,7 @@ Partial Class InsertCars
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(286, 370)
+        Me.Button2.Location = New System.Drawing.Point(287, 413)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(208, 71)
         Me.Button2.TabIndex = 11
@@ -142,7 +144,7 @@ Partial Class InsertCars
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(158, 479)
+        Me.Button3.Location = New System.Drawing.Point(163, 520)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(208, 71)
         Me.Button3.TabIndex = 12
@@ -160,6 +162,24 @@ Partial Class InsertCars
         Me.Label6.TabIndex = 13
         Me.Label6.Text = "Enter Car ID: "
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(25, 341)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(192, 29)
+        Me.Label3.TabIndex = 14
+        Me.Label3.Text = "Enter Car Price:"
+        '
+        'txtCarPrice
+        '
+        Me.txtCarPrice.Location = New System.Drawing.Point(325, 341)
+        Me.txtCarPrice.Name = "txtCarPrice"
+        Me.txtCarPrice.Size = New System.Drawing.Size(225, 22)
+        Me.txtCarPrice.TabIndex = 15
+        '
         'InsertCars
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -167,6 +187,8 @@ Partial Class InsertCars
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1041, 618)
+        Me.Controls.Add(Me.txtCarPrice)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -201,4 +223,6 @@ Partial Class InsertCars
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Label6 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents txtCarPrice As TextBox
 End Class

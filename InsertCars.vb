@@ -20,8 +20,8 @@ Public Class InsertCars
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
-        Dim insertQuery As String = "INSERT INTO cars (CarId, Name, Brand, Engine, Horsepower) values ('" & txtCarID.Text & "', '" & txtCarModelName.Text & "',
-        '" & txtCarBrandName.Text & "', '" & txtCarHorsepower.Text & "', '" & txtCarHorsepower.Text & "')"
+        Dim insertQuery As String = "INSERT INTO cars (CarId, Name, Brand, Engine, Horsepower, Price) values ('" & txtCarID.Text & "', '" & txtCarModelName.Text & "',
+        '" & txtCarBrandName.Text & "', '" & txtCarHorsepower.Text & "', '" & txtCarHorsepower.Text & "','" & txtCarPrice.Text & "' )"
 
         ExecuteQuery(insertQuery)
 

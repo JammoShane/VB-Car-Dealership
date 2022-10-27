@@ -92,6 +92,21 @@ CarDatabase
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:CarDatabase.My.Resources.Resources.Screenshot_2022_10_25_203222">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CarDatabase.My.Resources.Resources.Screenshot_2022_10_25_203658">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CarDatabase.My.Resources.Resources.Screenshot_2022_10_25_203953">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:CarDatabase.My.Resources.Resources.vb_bg_transformed">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

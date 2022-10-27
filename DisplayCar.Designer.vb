@@ -35,6 +35,9 @@ Partial Class DisplayCar
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.lblHp = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.lblPrice = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -69,7 +72,7 @@ Partial Class DisplayCar
         'PictureBox2
         '
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox2.Location = New System.Drawing.Point(22, 151)
+        Me.PictureBox2.Location = New System.Drawing.Point(12, 130)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(567, 334)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -168,11 +171,45 @@ Partial Class DisplayCar
         Me.lblHp.TabIndex = 34
         Me.lblHp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label6.Location = New System.Drawing.Point(619, 294)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(0, 29)
+        Me.Label6.TabIndex = 35
+        '
+        'lblPrice
+        '
+        Me.lblPrice.AutoSize = True
+        Me.lblPrice.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPrice.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.lblPrice.Location = New System.Drawing.Point(749, 294)
+        Me.lblPrice.Name = "lblPrice"
+        Me.lblPrice.Size = New System.Drawing.Size(0, 29)
+        Me.lblPrice.TabIndex = 36
+        Me.lblPrice.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label7.Location = New System.Drawing.Point(219, 282)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(0, 29)
+        Me.Label7.TabIndex = 37
+        '
         'DisplayCar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1041, 505)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.lblPrice)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.lblHp)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -207,4 +244,7 @@ Partial Class DisplayCar
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents lblHp As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents lblPrice As Label
+    Friend WithEvents Label7 As Label
 End Class

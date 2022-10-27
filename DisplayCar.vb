@@ -22,7 +22,7 @@ Public Class DisplayCar
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
-        Dim command As New SqlCommand("select name, brand, engine, horsepower, pictures from cars where carid = @id", connection)
+        Dim command As New SqlCommand("select name, brand, engine, horsepower, pictures, price from cars where carid = @id", connection)
         command.Parameters.Add("@id", SqlDbType.VarChar).Value = TextBox2.Text
 
         Dim table As New DataTable()
@@ -38,19 +38,26 @@ Public Class DisplayCar
 
             Dim img() As Byte
 
+            If IsDBNull(table.Rows(0)(4)) Then
+                img = Nothing
+                Label7.Text = "No Image"
+            Else
+                img = table.Rows(0)(4)
+                Dim ms As New MemoryStream(img)
+                PictureBox2.Image = Image.FromStream(ms)
+                Label7.Text = ""
+            End If
+
             Label3.Text = "Brand"
             Label4.Text = "Engine"
             Label5.Text = "Horsepower"
+            Label6.Text = "Price"
 
             Label1.Text = table.Rows(0)(0).ToString()
             lblBrand.Text = table.Rows(0)(1).ToString()
             lblEngine.Text = table.Rows(0)(2).ToString()
             lblHp.Text = table.Rows(0)(3).ToString()
-            img = table.Rows(0)(4)
-
-            Dim ms As New MemoryStream(img)
-
-            PictureBox2.Image = Image.FromStream(ms)
+            lblPrice.Text = table.Rows(0)(5).ToString()
 
         End If
         connection.Close()
@@ -70,11 +77,15 @@ Public Class DisplayCar
         Label1.Text = ""
         lblBrand.Text = ""
         lblEngine.Text = ""
+        lblPrice.Text = ""
         lblHp.Text = ""
         PictureBox2.Image = Nothing
         Label3.Text = ""
         Label4.Text = ""
         Label5.Text = ""
+        Label6.Text = ""
+        Label7.Text = ""
 
     End Sub
+
 End Class
