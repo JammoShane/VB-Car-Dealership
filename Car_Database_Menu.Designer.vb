@@ -37,74 +37,81 @@ Partial Class Car_Database_Menu
         '
         Me.lblMenu.AutoSize = True
         Me.lblMenu.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(6, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblMenu.Font = New System.Drawing.Font("Consolas", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMenu.Font = New System.Drawing.Font("Consolas", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblMenu.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.lblMenu.Location = New System.Drawing.Point(612, 84)
+        Me.lblMenu.Location = New System.Drawing.Point(508, 73)
         Me.lblMenu.Name = "lblMenu"
-        Me.lblMenu.Size = New System.Drawing.Size(118, 51)
+        Me.lblMenu.Size = New System.Drawing.Size(259, 112)
         Me.lblMenu.TabIndex = 0
         Me.lblMenu.Text = "Menu"
         '
         'btnDisplay
         '
         Me.btnDisplay.BackgroundImage = CType(resources.GetObject("btnDisplay.BackgroundImage"), System.Drawing.Image)
-        Me.btnDisplay.Location = New System.Drawing.Point(618, 159)
+        Me.btnDisplay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnDisplay.Location = New System.Drawing.Point(618, 188)
         Me.btnDisplay.Name = "btnDisplay"
-        Me.btnDisplay.Size = New System.Drawing.Size(135, 52)
+        Me.btnDisplay.Size = New System.Drawing.Size(114, 53)
         Me.btnDisplay.TabIndex = 1
         Me.btnDisplay.UseVisualStyleBackColor = True
         '
         'btnInsert
         '
         Me.btnInsert.BackgroundImage = CType(resources.GetObject("btnInsert.BackgroundImage"), System.Drawing.Image)
-        Me.btnInsert.Location = New System.Drawing.Point(621, 230)
+        Me.btnInsert.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnInsert.Location = New System.Drawing.Point(618, 247)
         Me.btnInsert.Name = "btnInsert"
-        Me.btnInsert.Size = New System.Drawing.Size(135, 45)
+        Me.btnInsert.Size = New System.Drawing.Size(114, 53)
         Me.btnInsert.TabIndex = 2
         Me.btnInsert.UseVisualStyleBackColor = True
         '
         'btnAdd
         '
         Me.btnAdd.BackgroundImage = CType(resources.GetObject("btnAdd.BackgroundImage"), System.Drawing.Image)
-        Me.btnAdd.Location = New System.Drawing.Point(618, 292)
+        Me.btnAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnAdd.Location = New System.Drawing.Point(618, 306)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(135, 46)
+        Me.btnAdd.Size = New System.Drawing.Size(114, 52)
         Me.btnAdd.TabIndex = 3
         Me.btnAdd.UseVisualStyleBackColor = True
         '
         'btnUpdate
         '
         Me.btnUpdate.BackgroundImage = Global.CarDatabase.My.Resources.Resources.Screenshot_2022_10_25_203222
-        Me.btnUpdate.Location = New System.Drawing.Point(615, 359)
+        Me.btnUpdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnUpdate.Location = New System.Drawing.Point(618, 364)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(135, 47)
+        Me.btnUpdate.Size = New System.Drawing.Size(114, 51)
         Me.btnUpdate.TabIndex = 4
         Me.btnUpdate.UseVisualStyleBackColor = True
         '
         'btnExit
         '
         Me.btnExit.BackgroundImage = CType(resources.GetObject("btnExit.BackgroundImage"), System.Drawing.Image)
-        Me.btnExit.Location = New System.Drawing.Point(618, 528)
+        Me.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnExit.Location = New System.Drawing.Point(618, 539)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(132, 44)
+        Me.btnExit.Size = New System.Drawing.Size(114, 53)
         Me.btnExit.TabIndex = 5
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'btnAddImage
         '
         Me.btnAddImage.BackgroundImage = Global.CarDatabase.My.Resources.Resources.Screenshot_2022_10_25_203953
-        Me.btnAddImage.Location = New System.Drawing.Point(614, 422)
+        Me.btnAddImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnAddImage.Location = New System.Drawing.Point(618, 421)
         Me.btnAddImage.Name = "btnAddImage"
-        Me.btnAddImage.Size = New System.Drawing.Size(136, 43)
+        Me.btnAddImage.Size = New System.Drawing.Size(114, 53)
         Me.btnAddImage.TabIndex = 6
         Me.btnAddImage.UseVisualStyleBackColor = True
         '
         'btnSearch
         '
         Me.btnSearch.BackgroundImage = Global.CarDatabase.My.Resources.Resources.Screenshot_2022_10_25_203658
-        Me.btnSearch.Location = New System.Drawing.Point(621, 482)
+        Me.btnSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnSearch.Location = New System.Drawing.Point(618, 480)
         Me.btnSearch.Name = "btnSearch"
-        Me.btnSearch.Size = New System.Drawing.Size(119, 40)
+        Me.btnSearch.Size = New System.Drawing.Size(114, 53)
         Me.btnSearch.TabIndex = 7
         Me.btnSearch.UseVisualStyleBackColor = True
         '

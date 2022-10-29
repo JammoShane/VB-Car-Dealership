@@ -15,4 +15,12 @@
     Private Sub btnUpdate_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
         DeleteCars.Show()
     End Sub
+
+    Private Sub btnAddImage_Click(sender As Object, e As EventArgs) Handles btnAddImage.Click
+        AddCarImage.Show()
+    End Sub
+
+    Private Sub btnSearch_Click(sender As Object, e As EventArgs) Handles btnSearch.Click
+        DisplayCar.Show()
+    End Sub
 End Class
