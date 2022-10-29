@@ -12,7 +12,7 @@
         InsertCars.Show()
     End Sub
 
-    Private Sub btnUpdate_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
+    Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click
         DeleteCars.Show()
     End Sub
 
@@ -22,5 +22,13 @@
 
     Private Sub btnSearch_Click(sender As Object, e As EventArgs) Handles btnSearch.Click
         DisplayCar.Show()
+    End Sub
+
+    Private Sub btnUpdate_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
+        UpdateCars.Show()
+    End Sub
+
+    Private Sub Car_Database_Menu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

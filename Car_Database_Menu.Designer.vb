@@ -26,8 +26,8 @@ Partial Class Car_Database_Menu
         Me.lblMenu = New System.Windows.Forms.Label()
         Me.btnDisplay = New System.Windows.Forms.Button()
         Me.btnInsert = New System.Windows.Forms.Button()
-        Me.btnAdd = New System.Windows.Forms.Button()
         Me.btnUpdate = New System.Windows.Forms.Button()
+        Me.btnDelete = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.btnAddImage = New System.Windows.Forms.Button()
         Me.btnSearch = New System.Windows.Forms.Button()
@@ -41,7 +41,7 @@ Partial Class Car_Database_Menu
         Me.lblMenu.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.lblMenu.Location = New System.Drawing.Point(508, 73)
         Me.lblMenu.Name = "lblMenu"
-        Me.lblMenu.Size = New System.Drawing.Size(259, 112)
+        Me.lblMenu.Size = New System.Drawing.Size(323, 140)
         Me.lblMenu.TabIndex = 0
         Me.lblMenu.Text = "Menu"
         '
@@ -65,25 +65,25 @@ Partial Class Car_Database_Menu
         Me.btnInsert.TabIndex = 2
         Me.btnInsert.UseVisualStyleBackColor = True
         '
-        'btnAdd
-        '
-        Me.btnAdd.BackgroundImage = CType(resources.GetObject("btnAdd.BackgroundImage"), System.Drawing.Image)
-        Me.btnAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnAdd.Location = New System.Drawing.Point(618, 306)
-        Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(114, 52)
-        Me.btnAdd.TabIndex = 3
-        Me.btnAdd.UseVisualStyleBackColor = True
-        '
         'btnUpdate
         '
-        Me.btnUpdate.BackgroundImage = Global.CarDatabase.My.Resources.Resources.Screenshot_2022_10_25_203222
+        Me.btnUpdate.BackgroundImage = CType(resources.GetObject("btnUpdate.BackgroundImage"), System.Drawing.Image)
         Me.btnUpdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnUpdate.Location = New System.Drawing.Point(618, 364)
+        Me.btnUpdate.Location = New System.Drawing.Point(618, 306)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(114, 51)
-        Me.btnUpdate.TabIndex = 4
+        Me.btnUpdate.Size = New System.Drawing.Size(114, 52)
+        Me.btnUpdate.TabIndex = 3
         Me.btnUpdate.UseVisualStyleBackColor = True
+        '
+        'btnDelete
+        '
+        Me.btnDelete.BackgroundImage = Global.CarDatabase.My.Resources.Resources.Screenshot_2022_10_25_203222
+        Me.btnDelete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnDelete.Location = New System.Drawing.Point(618, 364)
+        Me.btnDelete.Name = "btnDelete"
+        Me.btnDelete.Size = New System.Drawing.Size(114, 51)
+        Me.btnDelete.TabIndex = 4
+        Me.btnDelete.UseVisualStyleBackColor = True
         '
         'btnExit
         '
@@ -125,8 +125,8 @@ Partial Class Car_Database_Menu
         Me.Controls.Add(Me.btnSearch)
         Me.Controls.Add(Me.btnAddImage)
         Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.btnUpdate)
-        Me.Controls.Add(Me.btnAdd)
         Me.Controls.Add(Me.btnInsert)
         Me.Controls.Add(Me.btnDisplay)
         Me.Controls.Add(Me.lblMenu)
@@ -140,8 +140,8 @@ Partial Class Car_Database_Menu
     Friend WithEvents lblMenu As Label
     Friend WithEvents btnDisplay As Button
     Friend WithEvents btnInsert As Button
-    Friend WithEvents btnAdd As Button
     Friend WithEvents btnUpdate As Button
+    Friend WithEvents btnDelete As Button
     Friend WithEvents btnExit As Button
     Friend WithEvents btnAddImage As Button
     Friend WithEvents btnSearch As Button

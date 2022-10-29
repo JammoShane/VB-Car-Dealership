@@ -14,8 +14,15 @@ Public Class UpdateCars
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim updateQuery As String = "UPDATE cars set CarId, Name, Brand, Engine, Horsepower = " & txtCarID.Text & "', '" & txtCarModelName.Text & "',
-        '" & txtCarBrandName.Text & "', '" & txtCarHorsepower.Text & "', '" & txtCarHorsepower.Text & "'"
+        Dim updateQuery As String =
+            " UPDATE Cars 
+              SET Name = '" & txtCarModelName.Text & "', 
+              Brand = '" & txtCarBrandName.Text & "', 
+              Engine = '" & txtCarEngineSize.Text & "', 
+              Horsepower = '" & txtCarHorsepower.Text & "',
+              Price = '" & txtCarPrice.Text & "'
+              WHERE CarId = '" & txtCarID.Text & "'
+            "
 
         ExecuteQuery(updateQuery)
 

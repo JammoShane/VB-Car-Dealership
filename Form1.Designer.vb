@@ -40,7 +40,7 @@ Partial Class Form1
         Me.LblWelcome.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.LblWelcome.Location = New System.Drawing.Point(589, 61)
         Me.LblWelcome.Name = "LblWelcome"
-        Me.LblWelcome.Size = New System.Drawing.Size(206, 56)
+        Me.LblWelcome.Size = New System.Drawing.Size(261, 70)
         Me.LblWelcome.TabIndex = 0
         Me.LblWelcome.Text = "Welcome"
         '
@@ -51,7 +51,7 @@ Partial Class Form1
         Me.lblUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblUsername.Location = New System.Drawing.Point(583, 188)
         Me.lblUsername.Name = "lblUsername"
-        Me.lblUsername.Size = New System.Drawing.Size(107, 24)
+        Me.lblUsername.Size = New System.Drawing.Size(136, 29)
         Me.lblUsername.TabIndex = 1
         Me.lblUsername.Text = "Username :"
         '
@@ -62,7 +62,7 @@ Partial Class Form1
         Me.lblPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPassword.Location = New System.Drawing.Point(585, 253)
         Me.lblPassword.Name = "lblPassword"
-        Me.lblPassword.Size = New System.Drawing.Size(102, 24)
+        Me.lblPassword.Size = New System.Drawing.Size(132, 29)
         Me.lblPassword.TabIndex = 2
         Me.lblPassword.Text = "Password :"
         '

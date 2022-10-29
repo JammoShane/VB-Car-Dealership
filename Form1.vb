@@ -4,7 +4,7 @@
         Dim username As String = txtUsername.Text
         Dim password As String = txtPassword.Text
 
-        If (username <> "Harish Ramachandra" Or password <> 206007) Then
+        If (username <> "Matt" Or password <> 1234) Then
             MessageBox.Show("Wrong username or password, try again")
             txtPassword.Text = ""
             txtUsername.Text = ""
@@ -62,5 +62,7 @@
         DisplayCar.Show()
     End Sub
 
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
 End Class
